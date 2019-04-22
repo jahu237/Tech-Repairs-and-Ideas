@@ -6,9 +6,13 @@ h1 {
   color: lightblue;
   text-align: center;
 }
+h2 {
+  color: lightblue;
+  text-align: center;
+}
 
 p {
-  font-family: "Times New Roman";
+  font-family: "Georgia";
   font-size: 15px;
   margin: 30px;
   background:white;
@@ -38,6 +42,9 @@ li a {
 li a:hover {
   background-color: lightblue;
 }
-h2 {
-  color:white;
+iMacGPU{
+  image-orientation: center;
+}
+computerpic{
+  image-orientation: center;
 }
