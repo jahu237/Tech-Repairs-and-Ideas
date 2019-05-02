@@ -11,6 +11,9 @@ h2 {
   text-align: center;
 }
 
+h3 {
+  text-align: center;
+}
 p {
   font-family: "Georgia";
   font-size: 15px;
@@ -18,7 +21,8 @@ p {
   background:white;
   border: 1px solid black;
   outline: 1px solid lightblue;
-  outline-offset: 15px;
+  outline-offset: 6px;
+  text-align: center;
 }
 ul {
   list-style-type: none;
@@ -42,9 +46,24 @@ li a {
 li a:hover {
   background-color: lightblue;
 }
-iMacGPU{
-  image-orientation: center;
+textarea {
+  width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border:1px solid black;
+  outline: 1px solid lightblue;
+  outline-offset: 6px;
+  background-color: white;
+  font-size: 16px;
+  resize: none;
 }
-computerpic{
-  image-orientation: center;
+input[type=submit], input[type=reset] {
+  background-color: lightblue;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
 }
